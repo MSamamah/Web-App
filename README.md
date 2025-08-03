@@ -1,40 +1,38 @@
-# DevOpsify Web Application
+# DevOpsify – Web Application
 
-This is a simple Golang-based web application designed to demonstrate **end-to-end DevOps implementation**.
+This is a simple Golang-based web application developed **as the base app for a DevOps demonstration project**.
 
-The project serves as a practical example to apply key DevOps practices including:
+It is designed to support the implementation of DevOps practices such as:
 
 - **Containerization** with Docker  
 - **Continuous Integration & Deployment (CI/CD)** using pipelines  
 - **Deployment and orchestration** using Kubernetes  
 
----
-
-## 📄 Project Structure
-
-| Page        | Description                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| `/home`     | Introduction to the project and DevOps scope                                |
-| `/containers` | Explains containerization and Docker usage in this app                   |
-| `/cicd`     | Overview of CI/CD pipelines and their application here                      |
-| `/kubernetes` | Introduction to Kubernetes and deployment strategy                        |
-| `/contact`  | Links to author’s LinkedIn, GitHub, and contact email                      |
+> 💡 **Note:**This is only the web app that will be used for applying DevOps tools in a separate project.
 
 ---
 
 ## 💡 Purpose
 
-This application is intentionally kept minimal to focus on DevOps tooling and workflows.  
-It is ideal for demonstrations, personal portfolio projects, or as a base for DevOps practice.
+This application is intentionally kept minimal to focus purely on DevOps tooling and workflows when integrated into a complete pipeline.  
+It is ideal for use in DevOps portfolios, demonstrations, or practice environments.
 
 ---
 
-## 🔧 Tech Stack
+## ▶️ Running the Server
 
-- **Language:** Go (Golang)
-- **Web Server:** Built-in `net/http`
-- **Deployment:** Docker & Kubernetes
-- **CI/CD:** GitHub Actions or any pipeline tool of choice
+To run the server, execute the following command in your terminal:
+
+```bash
+go run main.go
+```
+
+The server will start on port **8080**.  
+You can access the application in your browser at:
+
+```bash
+http://localhost:8080/home
+```
 
 ---
 
@@ -42,8 +40,7 @@ It is ideal for demonstrations, personal portfolio projects, or as a base for De
 
 **Muhammad Samamah**  
 [LinkedIn](https://www.linkedin.com/in/muhammad-samamah-698a6a304)  
-[GitHub](https://github.com/your-username)
+[GitHub](https://github.com/MSamamah)
 
 ---
 
-> This is a personal DevOps practice project and is not affiliated with any course or instructor.
